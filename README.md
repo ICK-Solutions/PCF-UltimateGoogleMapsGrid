@@ -56,7 +56,7 @@ GoogleMapsGrid_PARTNR365/
 
 1. **Dynamics 365 CE** (Sales, Service, ou Custom) — Model-Driven App
 2. **Cle API Google Maps** avec l'API Maps JavaScript activee
-   - Suivez le guide PDF fourni (5 etapes, 10 minutes)
+   - Suivez le PDF fourni (5 etapes, 10 minutes)
    - Google offre 200$/mois de credit gratuit — largement suffisant pour une PME
 3. **Champs latitude/longitude** renseignes sur vos enregistrements
    - Champs natifs : `address1_latitude` / `address1_longitude`
@@ -105,17 +105,6 @@ GoogleMapsGrid_PARTNR365/
 
 ---
 
-## Configuration sur un formulaire (sous-grille)
-
-Le PCF fonctionne aussi sur une sous-grille dans un formulaire :
-
-1. Ajoutez une sous-grille sur le formulaire
-2. Pointez-la vers une vue contenant lat/lng
-3. Ajoutez le controle Google Maps Grid sur la sous-grille
-4. Meme configuration que ci-dessus
-
----
-
 ## Depannage
 
 | Probleme | Solution |
@@ -139,7 +128,7 @@ Si vous avez besoin d'accompagnement pour :
 - Le geocodage de vos adresses (remplir automatiquement les lat/lng)
 - Des developpements PCF sur mesure
 
-**Contactez PARTNR.365**
+**Contactez moi **
 
 - Web : [partnr365.fr](https://partnr365.fr)
 - Email : contact@partnr365.fr
@@ -158,6 +147,3 @@ Si vous avez besoin d'accompagnement pour :
 | Compatibilite | Model-Driven Apps (Dynamics 365 CE) |
 | Licence | MIT |
 
----
-
-*PARTNR.365 — L'humain et le process avant l'outil.*
