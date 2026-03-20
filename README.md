@@ -5,8 +5,8 @@
 
 Google Maps Grid transforme n'importe quelle vue Dynamics 365 en carte Google Maps interactive. Comptes, contacts, leads, entites custom — si vous avez une latitude et une longitude, vous avez une carte.
 
-> Edité par **PARTNR.365** — Consultant Dynamics 365 CE
-> [partnr365.fr](https://partnr365.fr) | contact@partnr365.fr
+> Edité par **Frédérick GROBOST** — Consultant Dynamics 365 CE
+> [partnr365.fr](https://partnr365.fr) | https://www.linkedin.com/in/frederickgrobost/ | contact@partnr365.fr
 
 ---
 
