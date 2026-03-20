@@ -82,15 +82,24 @@ GoogleMapsGrid_PARTNR365/
    - **Nom** (obligatoire, affiche dans l'info-window)
    - Toute autre colonne utile (ville, telephone, type de client...)
    - Les colonnes optionset deviennent automatiquement des filtres
+     
+  ![0 Create view with mandatory columns and specific ones](https://github.com/user-attachments/assets/17fe23c2-621e-46cb-a147-cede96fe0a1b)
+     
 4. Enregistrez et publiez la vue
 
 ### Etape 3 — Activer le controle
 
 1. Ouvrez la vue
 2. Allez dans **Controles** > **Ajouter un controle**
-3. Selectionnez **Google Maps Grid**
-4. Activez-le pour **Web**
+![1 In View Open Components](https://github.com/user-attachments/assets/bafd5f4b-6a57-42de-ab23-a721b2aa59b8)
+![2  Add a componant](https://github.com/user-attachments/assets/b9e89f48-6655-4dd7-830b-6072a645b97d)
+![3  Get More Components](https://github.com/user-attachments/assets/b7382ef8-0f54-4318-a4d0-00c4775b8fdb)
+
+4. Selectionnez **Google Maps**
+![4  Google Maps](https://github.com/user-attachments/assets/df6393f1-1c9c-486c-8e6b-77c8b1139c2a)
+
 5. Configurez les proprietes :
+![5  Fill data](https://github.com/user-attachments/assets/79d1fe14-bf3e-43b1-ab31-e3c69669ef80)
 
 | Propriete | Valeur | Obligatoire |
 |-----------|--------|-------------|
