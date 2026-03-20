@@ -3,6 +3,10 @@
 **Vos enregistrements sont dans un tableau.**
 **Ils devraient etre sur une carte.**
 
+![Comptes Comptes actifs (Map) - Dynamics 365 et 6 pages de plus - Travail  Microsoft Edge](https://github.com/user-attachments/assets/638df0c8-15cf-4690-852a-6a14aa7481f9)
+
+
+
 Google Maps Grid transforme n'importe quelle vue Dynamics 365 en carte Google Maps interactive. Comptes, contacts, leads, entites custom — si vous avez une latitude et une longitude, vous avez une carte.
 
 > Edité par **Frédérick GROBOST** — Consultant Dynamics 365 CE
