@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="PARTNR365" constructor="GoogleMapsGrid" version="1.0.0" display-name-key="Google Maps Grid" description-key="Displays records as interactive markers on a Google Maps canvas" control-type="virtual" api-version="1.3.0">
+
+    <property name="GoogleMapsApiKey" display-name-key="Google Maps API Key" description-key="Your Google Maps JavaScript API key" of-type="SingleLine.Text" usage="input" required="true" />
+
+    <property name="LatitudeField" display-name-key="Latitude Field" description-key="Logical name of the latitude field (e.g. address1_latitude)" of-type="SingleLine.Text" usage="input" required="true" />
+
+    <property name="LongitudeField" display-name-key="Longitude Field" description-key="Logical name of the longitude field (e.g. address1_longitude)" of-type="SingleLine.Text" usage="input" required="true" />
+
+    <property name="TitleField" display-name-key="Title Field" description-key="Logical name of the title field shown in the info-window and used for navigation (e.g. name)" of-type="SingleLine.Text" usage="input" required="true" />
+
+    <property name="PrimaryMarkerShape" display-name-key="Primary Marker Shape" description-key="Shape for primary markers: pin, diamond, circle, square, star, store, building, person, question, target, distributor, truck, wrench (default: pin)" of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="MarkerStyleMapping" display-name-key="Marker Style Mapping (JSON)" description-key="JSON mapping option set values to a shape and color. Example: {fieldName,mappings:[{value,shape,color,label}],default:{shape,color}}" of-type="Multiple" usage="input" required="false" />
+
+    <property name="ColorOptionSetField" display-name-key="Color Option Set Field" description-key="Logical name of the option set field used to color markers (optional)" of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="MapHeight" display-name-key="Map Height (px)" description-key="Height of the map in pixels" of-type="Whole.None" usage="input" required="false" default-value="0" />
+
+    <data-set name="dataSet" display-name-key="Records" description-key="View of records to display on the map" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/GoogleMapsGrid.css" order="1" />
+      <platform-library name="React" version="16.8.6" />
+      <platform-library name="Fluent" version="8.29.0" />
+    </resources>
+
+  </control>
+</manifest>
